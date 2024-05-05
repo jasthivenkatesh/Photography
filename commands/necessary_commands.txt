@@ -1,0 +1,47 @@
+to create react/frontend (cd to frontend)
+npx create-react-app contest_io
+cd contest_io
+npm install react-router-dom@6
+npm install react-datepicker
+npm install axios
+
+#for icons (cd to frontend and then run these commands)
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+npm install --save @fortawesome/free-brands-svg-icons
+
+#for cookies
+npm i universal-cookie -s
+ 
+
+to create backend ->
+
+npm init -y
+npm install express cors mongoose dotenv
+npm install -g nodemon
+Set-ExecutionPolicy RemoteSigned(in terminal as administrator)
+npm install multer
+npm install nanoid
+npm install path
+
+# for authentication (cd to backend and then run these commands)
+npm install --save bcrypt
+npm i jsonwebtoken -s
+
+to run -> npm start
+
+
+to connect database ->
+
+1. first, add a new user to the security>database access tab in mogodb atlas
+2. in the .env file, change the username and password to your new user's username and password.
+3. if connection closed error -> add 0.0.0.0/0 to the security>network access tab of mongodb atlas (already done for our project)
+
+
+
+to connect firebase ->
+cd frontend/contestio/
+yarn add firebase uuid
+npm install compressorjs
+npm install react-photo-view

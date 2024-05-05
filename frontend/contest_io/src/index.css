@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: small;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  background: #ffffff;
+  padding: 10px 20px;
+}
+
+.nav-link {
+  font-size: 24px;
+  padding: 0 30px !important;
+}
+
+.nav-item :hover {
+  color: #8344CA;
+}
+
+.btn-theme {
+  background-color: #5e0fb8 !important;
+  color: white !important;
+  border-width: 0px !important;
+}
+
+.btn-theme:hover {
+  background-color: #340768 !important;
+  color: white !important;
+  /* border-color: #8344CA !important; */
+  border-width: 0px !important;
+}
+
+.bg-theme {
+  background-color: #5e0fb8 !important;
+  color: white !important;
+  border-width: 0px !important;
+}
+
+.page-link {
+  color: rgba(155, 39, 176, 0.478) !important;
+  border-color: rgba(155, 39, 176, 0.478) !important;
+  border-width: 2px !important;
+}
+
+.nav-link.active {
+  color: #8344CA !important;
+  /* background-color: #beb504 !important; */
+}
+
+.navbar-brand {
+  color: #8344CA !important;
+}
+
+/* .active {
+  color: #8344CA !important;
+} */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #8344CA;
+}
+
+.contest-box {
+  background: rgba(156, 39, 176, 0.09);
+  border-radius: 20px;
+  /* min-width: 30%;
+  min-height: 30%; */
+  margin: 10px 0px;
+}
+
+.home-box {
+  background: rgba(156, 39, 176, 0.09);
+  border-radius: 20px;
+  /* min-width: 100%;
+  min-height: 80%; */
+}
+
+.headline {
+  color: #8344CA;
+}
+
+.contest-card {
+  border-color: rgba(155, 39, 176, 0.478);
+  border-width: 2px;
+  box-shadow: 5px 5px 2px rgba(155, 39, 176, 0.478);
+}
+
+.search-card {
+  border-color: rgba(155, 39, 176, 0.478);
+  border-width: 2px;
+  background-color: #ffffff;
+  /* box-shadow: px 5px 2px rgba(155, 39, 176, 0.478); */
+}
+
+.csearch-box {
+  background: rgba(156, 39, 176, 0.09);
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+
+.search-div {
+  position: relative;
+
+}
+
+.search-bar {
+  border-color: #8344CA;
+  border-width: 4px;
+}
+
+.search-bar:focus {
+  border-color: #beb504;
+  box-shadow: none;
+}
+
+.search-table {
+  background-color: rgb(239, 236, 249);
+  z-index: 100;
+  position: absolute;
+  width: 95%;
+  border-radius: 10px;
+}
+.other-search-table {
+  background-color: rgb(239, 236, 249);
+  border-radius: 10px;
+}
+
+.check {
+  background-color: red !important;
+  border: 5px solid #000000 ;
+}
+
+.Link {
+  text-decoration: none !important;
+}
+
+#backgroundimage1 {
+  background:url("./images/background1.jpg");
+  width: 100vw;
+  height: 100vh; 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#backgroundimage2 {
+  background:url("./images/background2.jpg");
+  width: 100vw;
+  height: 100vh; 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.span-block {
+  display: block;
+  margin-bottom: 20px;
+} 
+.containercenter {
+  height: 200px;
+  position: relative;
+}
+
+.centerbutton {
+  margin: 0;
+  position: absolute;
+  margin-top: 40px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.alert {
+  /* display: "inline-block", */
+  display: block;
+  position: fixed !important;
+  left: 0.5vw;
+  bottom: 0.5vh;
+  z-index: 20 !important;
+  width: 25%;
+  /* height: 20%; */
+  /* // transform: "translate(-80%, -20%)", */
+  /* overflow: hidden; */
+
+}
+
+.accordion-button {
+  background-color: #dec8f96e;
+  border-width: 0px !important;
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #cfb1f0d7 !important;
+  color: black !important;
+}
+
+
+.content-card {
+  border-color: rgba(155, 39, 176, 0.478) !important;
+  border-width: 4px !important;
+}
+
+.text-bg-theme-light {
+  background: rgba(247, 204, 255, 0.2);
+  border-color: rgba(230, 149, 245, 0.478) !important;
+  border-width: 2px !important;
+}
+.text-bg-theme {
+  background: rgba(198, 102, 215, 0.2);
+  border-color: rgba(155, 39, 176, 0.478) !important;
+  border-width: 2px !important;
+}
